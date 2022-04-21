@@ -1,0 +1,15 @@
+.van-search__content {
+  border-radius: 17px;
+}
+
+.el-upload__input {
+  display: none !important;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+label {
+  margin-bottom: 0;
+}

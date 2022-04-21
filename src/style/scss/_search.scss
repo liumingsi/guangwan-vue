@@ -1,0 +1,112 @@
+.page-search {
+    width: 1920px;
+    height: 1697px;
+    background-color: #F8F9FBFF;
+
+    .page-search-nav {
+        width: 1920px;
+        height: 50px;
+        margin-bottom: 1px;
+        background-color: #FFFFFFFF;
+
+        .page-search-nav-left {
+            width: 378px;
+            height: 50px;
+            margin-left: 360px;
+            float: left;
+
+            div {
+                width: 84px;
+                height: 50px;
+                text-align: center;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #333333;
+                line-height: 50px;
+                border-bottom: 1px solid yellow;
+            }
+        }
+
+        .page-search-nav-right {
+            width: 128px;
+            height: 50px;
+            font-size: 12px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #666666;
+            float: right;
+            text-align: center;
+            margin-right: 361px;
+            line-height: 50px;
+
+            a {
+                margin: 0;
+                font-size: 12px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #666666;
+            }
+
+            a:hover {
+                color: rgb(12, 129, 237);
+            }
+        }
+    }
+
+    .page-search-content {
+        width: 1200px;
+        height: 988px;
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: #FFFFFFFF;
+
+        .page-search-content-left {
+            width: 657px;
+            height: 988px;
+            float: left;
+            margin-right: 240px;
+            div {
+                width: 148px;
+                margin: 0;
+                height: 20px;
+                text-align: center;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #333333;
+                margin-top: 19px;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                    margin-top: -2px;
+                    padding: 0;
+                    list-style: none;
+                }
+            }
+            .text {
+                width: 280px;
+                height: 38px;
+                margin: 0;
+                border-radius: 2px;
+                border: 1px solid #AAAAAA;
+                margin-left: 5px;
+            }
+
+            .button {
+                width: 56px;
+                height: 38px;
+                margin: 0;
+                border-radius: 2px;
+                border: 1px solid #AAAAAA;
+                margin-left: 5px;
+
+            }
+
+        }
+
+    
+    }
+
+}

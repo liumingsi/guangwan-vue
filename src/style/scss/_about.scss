@@ -1,0 +1,97 @@
+.page-about {
+    width: 1920px;
+    height: 1697px;
+
+    .page-about-nav {
+        width: 1920px;
+        height: 50px;
+        margin-bottom: 1px;
+
+        .page-about-nav-left {
+            width: 258px;
+            height: 50px;
+            display: flex;
+            margin-left: 360px;
+            justify-content: space-between;
+            float: left;
+
+            div {
+                width: 56px;
+                height: 50px;
+                text-align: center;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #333333;
+                line-height: 50px;
+            }
+
+            .navclass{
+                border-bottom: 1px solid yellow;
+
+                a {
+                    color: rgb(12, 129, 237);
+                }
+            }
+
+            div:hover {
+                border-bottom: 1px solid yellow;
+
+                a {
+                    color: rgb(12, 129, 237);
+                }
+            }
+        }
+
+        .page-about-nav-right {
+            width: 123px;
+            height: 50px;
+            font-size: 12px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #666666;
+            float: right;
+            text-align: center;
+            margin-right: 361px;
+            line-height: 50px;
+
+            a:hover {
+                color: rgb(12, 129, 237);
+            }
+        }
+    }
+
+    .page-about-content {
+        width: 1200px;
+        height: 988px;
+        margin: 0 auto;
+
+        .page-about-content-left {
+            width: 893px;
+            height: 988px;
+            float: left;
+
+
+            .page-about-content-left-top {
+                width: 893px;
+                height: 240px;
+                margin-top: 21px;
+
+                text-align: center;
+
+                img {
+                    width: 611px;
+                    height: 240px;
+
+                }
+            }
+
+            .page-about-content-main {
+                width: 893px;
+                height: 560px;
+                margin-top: 20px;
+            }
+        }
+        }
+
+    }

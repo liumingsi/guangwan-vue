@@ -1,0 +1,144 @@
+.page-application {
+    width: 1920px;
+    height: 1457px;
+    background-color: #F8F9FBFF;
+    .page-application-nav {
+        width: 1920px;
+        height: 50px;
+        margin-bottom: 1px;
+        background-color: #FFFFFFFF;
+
+        .page-application-nav-left {
+            width: 738px;
+            height: 50px;
+            display: flex;
+            margin-left: 360px;
+            justify-content: space-between;
+            float: left;
+
+            div {
+                width: 91px;
+                height: 50px;
+                text-align: center;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #333333;
+                line-height: 50px;
+            }
+
+            div:nth-of-type(1) {
+                border-bottom: 1px solid yellow;
+
+                a {
+                    color: rgb(12, 129, 237);
+                }
+            }
+
+            div:hover {
+                border-bottom: 1px solid yellow;
+
+                a {
+                    color: rgb(12, 129, 237);
+                }
+            }
+        }
+
+        .page-application-nav-right {
+            width: 104px;
+            height: 50px;
+            font-size: 12px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #666666;
+            float: right;
+            text-align: center;
+            margin-right: 361px;
+            line-height: 50px;
+
+            a {
+                margin: 0;
+                font-size: 12px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #666666;
+            }
+
+            a:hover {
+                color: rgb(12, 129, 237);
+            }
+        }
+    }
+
+    .page-application-content {
+        width: 1200px;
+        height: 625px;
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: #FFFFFFFF;
+       
+        .page-application-content-left{
+            width: 688px;
+            height: 528px;
+            float: left;
+            margin-top: 19px;
+            margin-left: 1px;
+            margin-right: 225px;
+            // text-align: center;
+            img{
+               
+                width: 100%;
+            }
+        }
+        .page-application-content-hr{
+            width: 1px;
+            height: 457px;
+            float: left;
+            margin-top: 20px;
+            background-color: #D8D8D8FF;
+        }
+        .page-application-content-right {
+            width: 268px;
+            float: right;
+            height: 988px;
+
+            .page-application-content-right-title {
+                margin-top: 23px;
+                height: 20px;
+                width: 80px;
+                border-left: 3px solid #F9CF09FF;
+                margin-bottom: 6px;
+
+                p {
+                    font-size: 16px;
+                    font-family: PingFangSC-Medium, PingFang SC;
+                    font-weight: 500;
+                    color: #333333;
+                    margin-left: 7px;
+                    line-height: 20px;
+
+                    span {
+                        color: #F9CF09FF;
+                    }
+                }
+            }
+            .page-application-content-right-new {
+                width: 238px;
+                height: 60px;
+                margin: 5px 10px 1px;
+
+                p {
+                    margin: 0;
+                    font-size: 14px;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    font-weight: 400;
+                    color: #666666;
+                }
+                p:hover{
+                    color: rgb(12, 129, 237);
+                }
+            }
+        }
+    }
+
+}
